@@ -12,6 +12,10 @@ main.c (aplicación: argumentos, llegadas y ciclo de simulación)
       └── process.c (entidad Process)
 ```
 
+## Diagrama
+<img width="2720" height="1720" alt="arquitectura_mlfq_scheduler" src="https://github.com/user-attachments/assets/d84a6733-f9af-4a80-8f5b-1b5db8bb4581" />
+
+
 `io.c` y `logger.c` son los módulos que abren o escriben archivos. `process`,
 `queue` y `scheduler` no conocen el formato CSV. La separación reduce el
 acoplamiento de la entrada/salida con las reglas del planificador, aunque no
