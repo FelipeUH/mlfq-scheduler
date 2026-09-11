@@ -1,5 +1,11 @@
 # MLFQ Scheduler Simulator
 
+## Integrantes del equipo
+- Lukas Piedrahita Serna - CC 1040872196
+- Felipe Uribe Holguin - CC 1026132431
+
+## Descripción del proyecto
+
 Simulador discreto, escrito en C, de un planificador **Multi-Level Feedback
 Queue (MLFQ)**. Lee procesos desde un CSV, ejecuta la simulación ciclo a ciclo
 y escribe las métricas finales en otro CSV.
